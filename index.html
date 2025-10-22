@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes Liens TikTok | VotreNom</title>
+    <style>
+        :root {
+            --bg-dark: #121212;
+            --primary: #00ff41; /* vert cyber */
+            --text: #ffffff;
+        }
+        body {
+            background: var(--bg-dark);
+            color: var(--text);
+            font-family: 'Courier New', monospace;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: var(--primary);
+            border-bottom: 1px solid var(--primary);
+            padding-bottom: 10px;
+        }
+        .link-card {
+            background: #1e1e1e;
+            border: 1px solid #333;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 15px 0;
+            transition: transform 0.3s;
+        }
+        .link-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary);
+        }
+        a {
+            color: var(--primary);
+            text-decoration: none;
+            font-size: 18px;
+            display: block;
+            padding: 10px;
+        }
+        .icon {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔗 MES LIENS UTILES</h1>
+        
+        <!-- Ajoutez vos liens ici -->
+        <div class="link-card">
+            <a href="https://votresite.com/linux-migration">
+                <span class="icon">🐧</span> GUIDE : Migrer vers Linux
+            </a>
+        </div>
+        
+        <div class="link-card">
+            <a href="https://votresite.com/checklist-securite">
+                <span class="icon">🔐</span> Checklist Sécurité Gratuite
+            </a>
+        </div>
+        
+        <div class="link-card">
+            <a href="https://votresite.com/vpn-comparaison">
+                <span class="icon">🛡️</span> Top 5 VPN Sécurisés
+            </a>
+        </div>
+        
+        <!-- Ajoutez d'autres liens au besoin -->
+    </div>
+</body>
+</html>
